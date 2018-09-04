@@ -14,7 +14,7 @@ Add the NuGet package, **LiveChat.OrchardCore**, to the Orchard Core CMS Website
 
 Add the script code from your live chat service to the settings area provided by the module, <i>Configuration</i> -> <i>Settings</i> -> <i>Live Chat</i>.
 
-![LiveChat.OrchardCore Settings](https://github.com/davidhayden/Carousel/blob/master/assets/livechat-settings.png?raw=true)
+![LiveChat.OrchardCore Settings](https://github.com/davidhayden/LiveChat/blob/master/assets/livechat-settings.png?raw=true)
 
 Make sure you check <em>Enable</em> to activate live chat and click <em>Save</em> to save the settings.
 
