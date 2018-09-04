@@ -1,0 +1,12 @@
+﻿@model LiveChat.OrchardCore.ViewModels.LiveChatSettingsViewModel
+
+<fieldset class="form-group" asp-validation-class-for="Enable">
+    <input type="checkbox" asp-for="Enable" class="form-control" style="float: left; width: 25px; margin-top: 5px"> <label asp-for="Enable">@T["Enable"]</label>
+</fieldset>
+<fieldset class="form-group" asp-validation-class-for="Text">
+    <label asp-for="Text">
+        @T["Live Chat Script"] <span asp-validation-for="Text"></span>
+    </label>
+    <textarea asp-for="Text" class="form-control" rows="10"></textarea>
+    <span class="hint">Copy and paste the script from your live chat provider.</span>
+</fieldset>

@@ -1,0 +1,15 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <PackageId>LiveChat.OrchardCore</PackageId>
+        <Title>Live Chat Module for Orchard Core</Title>
+        <Description>Provides settings for adding live chat functionality to website.</Description>
+        <PackageTags>Chat;LiveChat;OrchardCore</PackageTags>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <VersionSuffix>beta2</VersionSuffix>
+    </PropertyGroup>
+
+    <!-- Called after so that the <VersionSuffix> is built after the local ones -->
+    <Import Project="Common.props"/>
+
+</Project>

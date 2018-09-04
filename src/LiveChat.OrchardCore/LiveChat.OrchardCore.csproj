@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Admin.Abstractions" Version="1.0.0-beta2-67846" />
+    <PackageReference Include="OrchardCore.Entities.DisplayManagement" Version="1.0.0-beta2-67581" />
+    <PackageReference Include="OrchardCore.Environment.Navigation" Version="1.0.0-beta2-67846" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-beta2-67846" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-beta2-67581" />
+    <PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="1.0.0-beta2-67846" />
+  </ItemGroup>
+
+</Project>
