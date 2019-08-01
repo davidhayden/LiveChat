@@ -1,7 +1,8 @@
 using System;
+using System.Threading.Tasks;
 using LiveChat.OrchardCore.Drivers;
 using Microsoft.Extensions.Localization;
-using OrchardCore.Environment.Navigation;
+using OrchardCore.Navigation;
 
 namespace LiveChat.OrchardCore {
     public class AdminMenu : INavigationProvider {
@@ -11,9 +12,9 @@ namespace LiveChat.OrchardCore {
 
         public IStringLocalizer T { get; set; }
 
-        public void BuildNavigation(string name, NavigationBuilder builder) {
+        public Task BuildNavigationAsync(string name, NavigationBuilder builder) {
             if (!String.Equals(name, "admin", StringComparison.OrdinalIgnoreCase)) {
-                return;
+                return Task.CompletedTask;
             }
 
             builder
@@ -25,6 +26,8 @@ namespace LiveChat.OrchardCore {
                             .Permission(Permissions.ManageLiveChat)
                             .LocalNav()
                         )));
+
+            return Task.CompletedTask;
         }
     }
 }

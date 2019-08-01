@@ -3,9 +3,9 @@ using LiveChat.OrchardCore.Models;
 using LiveChat.OrchardCore.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using OrchardCore.DisplayManagement.Entities;
 using OrchardCore.DisplayManagement.Handlers;
 using OrchardCore.DisplayManagement.Views;
-using OrchardCore.Entities.DisplayManagement;
 using OrchardCore.Settings;
 
 namespace LiveChat.OrchardCore.Drivers {
