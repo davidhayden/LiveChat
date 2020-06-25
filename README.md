@@ -8,7 +8,7 @@ LiveChat.OrchardCore is an Orchard Core CMS Module that provides the necessary s
 
 ## Getting Started
 
-Add the NuGet package, **LiveChat.OrchardCore**, to the Orchard Core CMS Website. Launch the website and sign in as an administrator to enable the module from the dashboard under <i>Configuration</i> -> <i>Modules</i>.
+Add the NuGet package, **LiveChat.OrchardCore**, to the Orchard Core CMS Website. Launch the website and sign in as an administrator to enable the module from the dashboard under <i>Configuration</i> -> <i>Features</i>.
 
 ![LiveChat.OrchardCore](https://github.com/davidhayden/LiveChat/blob/master/assets/livechat-module.png?raw=true)
 
