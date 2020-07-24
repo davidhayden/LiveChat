@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="OrchardCore.Admin.Abstractions" Version="1.0.0-rc2-13450" />
+	<PackageReference Include="OrchardCore.Deployment.Abstractions" Version="1.0.0-rc2-13450" />
     <PackageReference Include="OrchardCore.Navigation.Core" Version="1.0.0-rc2-13450" />
     <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-13450" />
     <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc2-13450" />
